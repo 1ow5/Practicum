@@ -1,0 +1,156 @@
+$headerfooterbg: #162A35;
+
+@mixin FooterText{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+@mixin HeaderText{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+@mixin PhoneText{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.7857px;
+    line-height: 140%;    
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+@mixin UpperTextDark{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #162A35;
+}
+@mixin UpperTextWhite{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+@mixin HeaderLogoText{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.5591px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+@mixin FirstFrameBigTxt{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 140%;
+
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+@mixin FirstFrameSmallTxt{
+    width: 415px;
+    height: 42px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%; 
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    color: #162A35;
+}
+@mixin BigFrameText{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #162A35;
+
+}
+@mixin SmallTextFrame{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #162A35;
+}
+@mixin SmallTextIcons{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    
+    text-transform: uppercase;
+    color: #162A35;
+
+}
+@mixin ThirdPartBigText{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    leading-trim: both;
+    
+    text-transform: uppercase;
+    color: #000000;
+
+}
+@mixin BigBrownText{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 140%;
+    
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #8E6857;
+
+}
+@mixin SmallBoldText{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #162A35;
+}
+@mixin BtnText{
+    font-family: 'Raleway';
+    color: #FFF;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+@mixin HFThinTxt{
+    color: #162A35;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+}

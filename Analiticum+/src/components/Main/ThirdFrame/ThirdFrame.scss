@@ -1,0 +1,207 @@
+@import "../../Styles/styles.scss";
+
+.ThirdFrameWrapper{
+    width: 1675px;
+    height: 1110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F1EF;
+}
+.ThirdFrameContent{
+    width: 1450px;
+    height: 865px;
+    display: flex;
+    align-items: center;
+}
+.ThirdFrameContainer{
+    width: 1175px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ThirdFrameBigTxt{
+    width: 370px;
+    height: 160px;
+}
+.ThirdFrameBigText{
+    @include BigFrameText;
+}
+.ThirdFrameLayout{
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+}
+.ThirdFrameLayoutLeftPartWrapper{
+    width: 770px;
+    height: 665px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ThirdFrameLayoutLeftPartContainer{
+    display: flex;
+    justify-content: center;
+}
+.ThirdFrameLayoutSchemeTextContainer{
+    width: 770px;
+    display: flex;
+    justify-content: space-between;
+}
+.ThirdFrameLayoutSchemeTextWrapper{
+    width: 550px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+#ThirdFrameLayoutSchemeTxt{
+    @include SmallTextFrame;
+    cursor: pointer;
+    z-index: 1;
+}
+.ThirdFrameLayoutSchemeThree{
+    border-bottom: 3px solid #6179CD;
+}
+.ThirdFrameLayoutImg{
+    width: 770px;
+    height: 505px;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-image: url("../../img/HadrdestFrameImg.svg");
+}
+.ThirdFrameSliderWrapper{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.ThirdFrameSliderContainer{
+    width: 690px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ThirdFrameSliderLArrow{
+    width: 50px;
+    height: 50px;
+    background-image: url("../../img/LArrow.svg");
+    background-repeat: no-repeat;
+    background-size: inherit;
+    cursor: pointer;
+    z-index: 1;
+}
+.ThirdFrameSliderRArrow{
+    width: 50px;
+    height: 50px;
+    background-image: url("../../img/RArrow.svg");
+    background-repeat: no-repeat;
+    background-size: inherit;
+    cursor: pointer;
+    z-index: 1;
+}
+.ThirdFrameSliderSlidesWrapper{
+    width: 560px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#Slide{
+    width: 105px;
+    height: 70px;
+    background-size: inherit;
+    background-repeat: no-repeat;
+}
+.Slide1{
+    background-image: url("../../img/HFrame1.svg");
+}
+.Slide2{
+    background-image: url("../../img/HFrame2.svg");
+}
+.Slide3{
+    background-image: url("../../img/HFrame3.svg");
+}
+.Slide4{
+    background-image: url("../../img/HFrame4.svg");
+}
+.Slide5{
+    background-image: url("../../img/HFrame5.svg");
+}
+.ThirdFrameLayoutRightPart{
+    width: 370px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ThirdFrameLayoutRightPartBigTxt{
+    width: 100%;
+    height: 85px;
+}
+.TFLRPBigText{
+    @include ThirdPartBigText;
+}
+.ThirdFrameLayoutRightPartInfo{
+    width: 340px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.GeneralInfoTxt{
+    
+}
+.GeneralInfoText{
+    @include HFThinTxt;
+}
+.Icons{
+    width: 340px;
+    height: 35px;
+    background-image: url("../../img/HFrameIcons.svg");
+    background-repeat: no-repeat;
+
+}
+#TxtContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#BoldTxt{
+    @include SmallBoldText;
+}
+.City{
+    width: 110px;
+}
+.Area{
+    width: 150px;            
+}
+.Developer{
+    width: 255px;
+}
+.Floors{
+    width: 70px;
+}
+.NumberOfApartments{
+    width: 200px;
+}
+.NumberOfBedrooms{
+    width: 255px;
+}
+.EnergyEfficiency{
+    width: 160px;
+}
+.ThirdFrameLayoutRightPartBtn{
+    width: 185px;
+    height: 60px;
+}
+.ThirdFrameLayoutRightPartButton{
+    @include BtnText;
+    background: #6179CD;
+    border-radius: 100px;
+    border: none;
+    width: inherit;
+    height: inherit;
+    z-index: 1;
+}

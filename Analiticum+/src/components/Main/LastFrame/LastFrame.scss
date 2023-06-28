@@ -1,0 +1,153 @@
+@import "../../Styles/styles.scss";
+
+.LastFrameWrapper{
+    width: 1675px;
+    height: 735px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../img/LastFrameBg.svg");
+    background-size: 1675px 100%;
+    background-repeat: no-repeat;
+}
+.LastFrameContainer{
+    width: 1450px;
+    height: 475px;
+    display: flex;
+}
+.LastFrameContent{
+    width: 1170px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.LastFrameContactText{
+    width: 385px;
+    display: flex;
+
+}
+.ContactText{
+    @include UpperTextWhite;
+    display: flex;
+}
+.LastFrameTextBoxes{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.LastFrameTextBoxesUp{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.LastFrameTextBoxesDown{
+    width: 100%;
+    height: 115px;
+    background: rgba(255, 255, 255, 0.46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LastBox{
+    display: flex;
+    border: none;
+    width: 97%;
+    height: 90px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 1;
+    text-align:inherit;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+#UpBox{
+    width: 335px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0);
+    z-index: 1;
+    opacity: inherit;
+    border: 0px;
+    outline: none;
+}
+.FirstTextBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.46);
+    outline: none;
+}
+.SecondTextBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.46);
+    outline: none;
+}
+.ThirdTextBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.46);
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    cursor: pointer;
+}
+
+.LastFrameCheckBoxBtn{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.LastFrameCheckBox{
+    display: flex;
+    width: 410px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.CheckBox{
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    z-index: 1;
+    cursor: pointer;
+}
+.CheckBoxText{
+    @include SmallBoldText;
+    color: white;
+}
+.Btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 185px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #6179CD;
+    border: none;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+.BtnText{
+    @include BtnText;
+}

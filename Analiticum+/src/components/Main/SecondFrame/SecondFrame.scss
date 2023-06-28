@@ -1,0 +1,191 @@
+@import "../../Styles/styles.scss";
+
+.SecondFrameWrapper{
+    width: 100%;
+    height: 1745px;
+    background: #FFFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.SecondFrameContainer{
+    width: 1550px;
+    height: 1445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.FirstPartWrapper{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.FirstPartContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.FirstPartTextWrapper{
+    width: 465px;
+    height: 420px;
+}
+.FirstPartTextcontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.FirstPartTextBig{
+    @include BigFrameText;
+}
+.FirstPartTextSmallContainer{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.FirstPartTextSmall{
+    @include SmallTextFrame;
+}
+.SecondPartWrapper{
+    width: 100%;
+    height: 65px;
+    display: flex;
+}
+.SecondPartContainer{
+    width: 1190px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.SecondPartOne{
+    width: 200px;
+    height: 100%;
+}
+.SecondPartTwo{
+    width: 270px;
+    height: 100%;
+}
+.SecondPartThree{
+    width: 240px;
+    height: 100%;
+}
+.SecondPartFour{
+    width: 200px;
+    height: 100%;
+}
+.SecondPartTag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SecondPartSmallText{
+    @include SmallTextIcons;
+}
+.SPST1{
+    width: 120px;
+}
+.SPST2{
+    width: 190px;
+}
+.SPST3{
+    width: 165px;
+}
+.SPST4{
+    width: 120px;
+}
+.ThirdPartWrapper{
+    width: 100%;
+    height: 600px;
+}
+.ThirdPartContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ThirdPartTextPartWrapper{
+    width: 550px;
+    height: 535px;
+}
+.ThirdPartTextPartContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ThirdPartBigText{
+
+    @include ThirdPartBigText;
+
+}
+.ChangedText{
+    display: flex;
+
+}
+span{
+    width:fit-content;
+    
+    color: white; 
+    background-color: #6179CD;
+}
+.ThirdPartHouseText{
+    width: 445px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.ThirdPartLeftText{
+    width: 205px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.ThirdPartLeftText1{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.ThirdPartLeftText2{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ThirdPartLeftTextBrown{
+    @include BigBrownText;
+}
+.ThirdPartLeftTextBold{
+    @include SmallBoldText;
+}
+.ThirdPartRightText{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.ThirdPartRightText1{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ThirdPartRightText2{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
